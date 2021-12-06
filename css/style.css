@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header div img{
+    width: 25%;
+}
+/* selecteur css
+
+-elements
+-elements imbriqués
+-pseudo classe donc spécificité, prend la main sur les règles générales du css
+-classes
+
+!important > style en ligne(dans le html) > id > spécificité > Classe
+
+*/
+
+
+
+/*body{
+    background-color: pink;
+}*/
+
+article:first-of-type header, span{
+    background-color: violet;
+}
+
+article:nth-of-type(2) header{
+    background-color: blue;
+}
+
+article:last-child{
+    background-color: blueviolet;
+}
+
+nav{
+    margin: 30px 0;
+}
+
+nav li{
+    background: linear-gradient(180deg, blue, pink);
+    transition: all 1s linear;
+    border: 5px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    display: inline;
+    
+}
+
+nav li:hover{
+    background: linear-gradient(360deg, blue, pink);
+}
+
+ul{
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.titres-classe{
+    color: pink;
+    background-color: black;
+    padding: 10px;
+}
+
+#premier-titre{
+    font-size: 36px;
+    color: white;
+    background-color: turquoise;
+}
+
+header{
+
+    background-color: cadetblue !important;
+}
