@@ -41,3 +41,52 @@ article{
     position: relative;
     top: -80px;
 }
+
+.pied-page{
+    background-color: #2A5F6F;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+nav a{
+    color: white;
+    display: inline;
+}
+
+.mon_bouton{
+    background-color: #3CC9F6;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    border-radius: 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+.calque{
+    background-color: tomato;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -70px;
+    left: 0px;
+    transition: all 0.5s ease;
+}
+
+.mon_bouton:hover .calque{
+    top: 0px;
+}
+
+.texte_bouton{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
