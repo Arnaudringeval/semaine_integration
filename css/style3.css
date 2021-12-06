@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+html {
+    scroll-behavior: smooth;
+}
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: #DDD;
+}
+
+header{
+    background-color: #6CB2C8;
+    font-size: 50px;
+    text-transform: uppercase;
+    height: 360px;
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+
+article{
+    background-color: white;
+    width: 75%;
+    margin: auto;
+    padding: 100px;
+    position: relative;
+    top: -80px;
+}
