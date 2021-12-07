@@ -77,15 +77,15 @@ a{
     order: 1;
 }
 
-.boite div:nth-child(2){
+.boite div:nth-of-type(2){
     background: coral;
 }
 
-.boite div:nth-child(3){
+.boite div:nth-of-type(3){
     background: cornflowerblue;
 }
 
-.boite div:nth-child(4){
+.boite div:nth-of-type(4){
     background: darkblue;
 }
 
