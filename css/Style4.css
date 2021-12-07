@@ -10,7 +10,9 @@ margin: 0;
 box-sizing: border-box;
 }
 
-
+*, *::after, *::before{
+    box-sizing: inherit;
+}
 
 li{
     list-style: none;
@@ -20,4 +22,14 @@ a{
     text-decoration: none;
 }
 
+.flex{
+    display: flex;
+}
 
+.center-x{
+    justify-content: center;
+}
+
+.center-y{
+    align-items: center;
+}
