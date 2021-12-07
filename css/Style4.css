@@ -21,9 +21,17 @@ li{
 a{
     text-decoration: none;
 }
-
+/*classes génériques  */
 .flex{
     display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.space-around{
+    justify-content: space-around;
 }
 
 .center-x{
@@ -33,3 +41,34 @@ a{
 .center-y{
     align-items: center;
 }
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+ul li{
+    padding: 10px;
+    margin: 0;
+}
+
+/* Menu */
+
+.menu{
+    padding: 20px 10%;
+    color: white;
+    background-color: cadetblue;
+}
+
+.menu a{
+    color: white;
+}
+
+/* En tête */
+
+
+
+/* Section de boites */
+
+
+
+/* pied de page */
